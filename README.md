@@ -1,5 +1,11 @@
 # FavoriteFilms
 
+## Upcoming Features
+
+Allow the user to enter more movies into the dataset.
+Allow the user to choose the sort field and sort order for the cards.
+Add additional data about each movie, such as the production costs or a streaming service that offers the movie.
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
 
 ## Development server

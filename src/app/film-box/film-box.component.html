@@ -1,0 +1,15 @@
+<div>
+  <ul class="movieContainer">
+    <li class="movieItem" *ngFor="let film of films">
+      <div>
+        <img src="{{ film.img }}" width="300" />
+      </div>
+      <h2>{{ film.title }}</h2>
+      <h3>Relased: {{ film.releaseDate | date }}</h3>
+      <h3>Film Director : {{ film.directorName }}</h3>
+      <h3>
+        Box Office: <em>{{ film.boxOfficeGross | currency }}</em>
+      </h3>
+    </li>
+  </ul>
+</div>
